@@ -1,0 +1,17 @@
+.section {
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 960px;
+}
+
+.section.-header {
+    height: 960px;
+	background-image: url("../img/header.png");
+	background-size: cover;
+}
+
+@media screen and (max-width: 767px ){
+	    .section.-header {
+	    	height: 700px;
+	    }
+}

@@ -1,0 +1,25 @@
+.burger {
+    display: none;
+}
+
+@media screen and (max-width:902px) {
+		.burger {
+    	display: inline-flex;
+    	border-radius: 4px;
+    	flex-direction: column;
+    	justify-content: space-between;
+    	width: 36px;
+    	height: 30px;
+	}
+	.burger__item {
+    	background-color: var(--color-white);
+    	width: 30px;
+		height: 3px;
+    	border-radius: 4px;
+    	margin-left: 10px;
+	}
+	.burger__item.-b {
+    	width: 17px;
+    	height: 3px;
+	}
+}

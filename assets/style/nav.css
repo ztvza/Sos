@@ -1,0 +1,27 @@
+.header__nav {
+	color: var(--color-white);
+	margin-right: 30px;
+	font-size: 18px;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+.nav_line {
+	background-color: var(--color-white);
+	width: 2px;
+	height: 35px;
+	margin-right: 5px;
+}
+
+.nav_icon {
+	margin-right: 10px;
+}
+
+@media screen and (max-width: 574px){
+	.nav_icon {
+		display: none;
+	}
+}

@@ -1,0 +1,75 @@
+.title {
+	font-family: Bebas Neue;
+	color: var(--color-white);
+	font-size: 100px;
+	letter-spacing: 0.1em;
+}
+
+.scroll {
+	margin-top: 120px;
+	text-align: center;
+	color: var(--color-white);
+	font-size: 13px;
+}
+
+.subtitle {
+	font-family: Bebas Neue;
+	color: var(--color-white);
+	font-size: 30px;
+	margin-bottom: 40px;
+	letter-spacing: 0.1em; 
+}
+
+.info {
+	text-align: center;
+}
+
+@media screen and (max-width: 1400px ){
+	.scroll {
+		margin-top: 100px;
+	}
+}
+
+@media screen and (max-width: 1120px ){
+	.scroll {
+		margin-top: 240px;
+	}
+}
+
+@media screen and (max-width:767px ){
+	.title {
+	    font-size: 53px;
+	    letter-spacing: 0.06em;
+	}
+
+	.subtitle {
+		font-size: 20px;
+		margin-left: 140px;
+    	margin-right: 140px;
+    	margin-bottom: 15px;
+	}
+
+	.scroll {
+		margin-top: 0px;
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 574px ){
+	.subtitle {
+		margin-right: 90px;
+		margin-left: 90px;
+	}
+}
+
+@media screen and (max-width: 464px) {
+	.subtitle {
+		font-size: 16px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+	.title {
+		font-size: 38px;
+	}
+}

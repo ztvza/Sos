@@ -1,7 +1,33 @@
 body, h1, h2, h3, h4, h5, h6, li, ol, u, p {
 	margin: 0;
+	font-family: 'Open Sans', sans-serif;
 }
 
 *{
-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.flex {
+    height: 680px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex.-center {
+	height: 100%;
+	align-items: center;
+}
+
+@media screen and (max-width: 1120px) {
+	.flex {
+		height: 550px;
+	}
+}
+
+@media screen and (max-width: 767px ){
+	.flex.-center {
+		justify-content: flex-start;
+		margin-left: 23px;
+	}
 }
