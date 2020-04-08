@@ -2,12 +2,16 @@
 	margin-top: 5px;
 }
 
+.img.-card {
+	width: 45%;
+}
+
 .center {
 	justify-content: center;
 }
 
-@media screen and (max-width: 767px ){
-	.img.-down {
-		
+@media screen and (max-width: 902px ){
+	.img.-card {
+		width: 85%;
 	}
 }

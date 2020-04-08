@@ -10,8 +10,18 @@
 	background-size: cover;
 }
 
+.section.-about {
+	background-image: url("../img/about.jpg");
+}
+
 @media screen and (max-width: 767px ){
 	    .section.-header {
 	    	height: 700px;
 	    }
+}
+
+@media screen and (max-width: 1120px ) {
+	.section.-about {
+		height: 100%;
+	}
 }

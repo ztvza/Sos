@@ -5,6 +5,13 @@
 	letter-spacing: 0.1em;
 }
 
+.line {
+	height: 3px;
+	width: 500px;
+	background-color: var(--color-white); 
+	margin-bottom: 20px;
+}
+
 .scroll {
 	margin-top: 119px;
 	text-align: center;
@@ -18,6 +25,22 @@
 	font-size: 30px;
 	margin-bottom: 40px;
 	letter-spacing: 0.1em; 
+}
+
+.subtitle.-margin {
+	margin-top: 20px;
+	margin-bottom: 0px;
+	font-size: 25px;
+}
+
+.text {
+	font-size: 17px;
+	color: var(--color-white);
+}
+
+.text.-smoll {
+	width: 350px;
+	margin-bottom: 20px;
 }
 
 .info {
@@ -34,6 +57,29 @@
 	.scroll {
 		margin-top: 240px;
 	}
+
+	.title.-smoll {
+		font-size: 71px;
+	}
+	.line {
+		width: 350px;
+	}
+}
+
+@media screen and (max-width: 902px ){
+	.title.-smoll {
+		font-size: 60px;
+	}
+
+	.text.-smoll {
+		width: auto;
+		margin-right: 70px;
+		margin-left: 70px;
+	}
+
+	.line {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width:767px ){
@@ -47,6 +93,11 @@
 		margin-left: 140px;
     	margin-right: 140px;
     	margin-bottom: 15px;
+	}
+
+	.subtitle.-margin {
+		margin-left: 0px;
+		margin-right: 0px;
 	}
 
 	.scroll {
@@ -63,13 +114,28 @@
 }
 
 @media screen and (max-width: 464px) {
+	.title.-smoll {
+		text-align: left;
+		font-size: 57px;
+	}
+
 	.subtitle {
 		font-size: 16px;
 		margin-left: 10px;
 		margin-right: 10px;
 	}
+
+	.subtitle.-margin {
+		text-align: left;
+	}
 	
 	.title {
 		font-size: 38px;
+	}
+
+	.text.-smoll {
+		text-align: left;
+		margin-right: 0px;
+		margin-left: 0px;
 	}
 }
