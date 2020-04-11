@@ -14,6 +14,16 @@
 	background-image: url("../img/about.jpg");
 }
 
+.section.-features{
+	background-image: url("../img/features.png");	
+	padding-top: 100px;
+	right: 0;
+}
+
+.section.-table {
+	background-image: url("../img/table.png");
+}
+
 @media screen and (max-width: 767px ){
 	    .section.-header {
 	    	height: 700px;
@@ -23,5 +33,22 @@
 @media screen and (max-width: 1120px ) {
 	.section.-about {
 		height: 100%;
+	}
+
+	.section.-features {
+		background-position-x: 50%; 
+	}
+}
+
+@media screen and (max-width: 767px ) {
+	.section.-features {
+		background-position-x: 40%; 
+	}
+}
+
+@media screen and (max-width: 574px ) {
+	.section.-features {
+		background-image: url(../img/features-smoll.png);
+		height: 650px;
 	}
 }

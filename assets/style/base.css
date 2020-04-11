@@ -19,6 +19,17 @@ body, h1, h2, h3, h4, h5, h6, li, ol, u, p {
 	align-items: center;
 }
 
+.flex.-smoll {
+	display: flex;
+	height: auto;
+	align-items: end;
+}
+
+.content {
+	display: flex;
+	justify-content: flex-end;
+}
+
 @media screen and (max-width: 1120px) {
 	.flex {
 		height: 550px;
