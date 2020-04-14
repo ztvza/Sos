@@ -7,6 +7,30 @@ body, h1, h2, h3, h4, h5, h6, li, ol, u, p {
 	box-sizing: border-box;
 }
 
+.string {
+	display: flex;
+	border-top: 1px solid #565656;
+}
+
+.string:first-child {
+	border-top: none;
+}
+
+.block {
+	width: 320px;
+	padding: 10px;
+	border-right: 1px solid #565656;
+}
+
+.block:last-child {
+	border-right: none;
+}
+
+.table {
+	width: max-content;
+	border: 2px solid #565656;
+}
+
 .flex {
     height: 680px;
     display: flex;
@@ -36,9 +60,21 @@ body, h1, h2, h3, h4, h5, h6, li, ol, u, p {
 	}
 }
 
+@media screen and (max-width:902px ){
+	.block {
+		width: 230px;
+	}
+}
+
 @media screen and (max-width: 767px ){
 	.flex.-center {
 		justify-content: flex-start;
 		margin-left: 23px;
+	}
+}
+
+@media screen and (max-width: 464px ){
+	.block {
+		width: 150px;
 	}
 }
