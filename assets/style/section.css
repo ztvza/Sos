@@ -28,6 +28,7 @@
 
 .section.-quotes {
 	background-image: url("../img/quotes.png");
+	height: min-content;
 }
 
 @media screen and (max-width: 767px ){
@@ -68,7 +69,7 @@
 
 @media screen and (max-width: 574px ) {
 	.section.-features {
-		background-image: url(../img/features-smoll.png);
+		background-image: url(../img/features-small.png);
 		height: 650px;
 	}
 

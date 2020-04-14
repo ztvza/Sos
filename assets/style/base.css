@@ -43,10 +43,15 @@ body, h1, h2, h3, h4, h5, h6, li, ol, u, p {
 	align-items: center;
 }
 
-.flex.-smoll {
+.flex.-small {
 	display: flex;
 	height: auto;
 	align-items: end;
+}
+
+.flex.-small.-jk {
+	justify-content: space-between;
+	align-items: center;
 }
 
 .content {

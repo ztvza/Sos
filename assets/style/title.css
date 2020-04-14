@@ -14,6 +14,10 @@
 	margin-bottom: 40px;
 }
 
+.title.-margin.-right {
+	text-align: left;
+}
+
 .line {
 	height: 3px;
 	width: 500px;
@@ -47,6 +51,10 @@
 	font-size: 25px;
 }
 
+.subtitle.-margin.-right {
+	text-align: left;
+}
+
 .subtitle.-margin.-orenge {
 	color: var(--color-orenge);
 	font-size: 33px;
@@ -58,12 +66,17 @@
 	margin-bottom: 15px;
 }
 
+.subtitle.-margin.-orenge.-none.-block {
+	margin-bottom: 0px;
+	font-size: 27px;
+}
+
 .text {
 	font-size: 17px;
 	color: var(--color-white);
 }
 
-.text.-smoll {
+.text.-small {
 	width: 350px;
 	margin-bottom: 20px;
 }
@@ -73,9 +86,23 @@
 	margin-bottom: 20px;
 }
 
+.text.-gray {
+	color: #8f8f8f;
+}
+
+.text.-top {
+	margin-top: 25px;
+}
+
 .text.-width {
 	width: 250px;
 	text-align: left ;
+}
+
+.text.-small.-margin.-right {
+	text-align: left;	
+	margin-right: 120px;
+	margin-left: 0px;
 }
 
 .text.-margin {
@@ -97,7 +124,7 @@
 		margin-top: 240px;
 	}
 
-	.title.-smoll {
+	.title.-small {
 		font-size: 71px;
 	}
 	.line {
@@ -106,11 +133,11 @@
 }
 
 @media screen and (max-width: 902px ){
-	.title.-smoll {
+	.title.-small {
 		font-size: 60px;
 	}
 
-	.text.-smoll {
+	.text.-small {
 		width: auto;
 		margin-right: 70px;
 		margin-left: 70px;
@@ -120,7 +147,7 @@
 		font-size: 24px;
 	}
 
-	.text.-smoll.-width {
+	.text.-small.-width {
 		margin-left: 0px;
 		margin-right: 0px;
 		width: 300px;
@@ -161,13 +188,13 @@
 		margin-left: 90px;
 	}
 
-	.text.-smoll.-width {
+	.text.-small.-width {
 		width: 250px;
 	}
 }
 
 @media screen and (max-width: 464px) {
-	.title.-smoll {
+	.title.-small {
 		text-align: left;
 		font-size: 57px;
 	}
@@ -186,7 +213,11 @@
 		font-size: 16px;
 	}
 
-	.text.-smoll.-width {
+	.text.-small.-margin.-right {
+		margin-right: 0px;
+	}
+
+	.text.-small.-width {
 		width: 177px;
 	}
 
@@ -198,7 +229,7 @@
 		font-size: 38px;
 	}
 
-	.text.-smoll {
+	.text.-small {
 		text-align: left;
 		margin-right: 0px;
 		margin-left: 0px;

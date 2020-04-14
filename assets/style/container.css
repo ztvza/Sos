@@ -31,6 +31,10 @@
 		display: block;
 		text-align: center;
 	}
+
+	.container.-flex.-small {
+		max-width: 60%;
+	}
 }
 
 @media screen and ( max-width: 790px ) {
@@ -40,6 +44,11 @@
 	}
 }
 
+@media screen and (max-width: 767px ){
+	.container{
+		max-width: 550px;
+	} 
+}
 @media screen and (max-width: 574px ){
 	
 	.container {
@@ -61,5 +70,9 @@
 	.container.-flex {
 		padding-top: 30px;
     	padding-bottom: 40px;
+	}
+
+	.container.-flex.-small {
+		max-width: 90%;
 	}
 }
