@@ -88,6 +88,11 @@
 
 .text.-gray {
 	color: #8f8f8f;
+	margin-top: 15px;
+}
+
+.text.-gray.-none {
+	margin-top: 0px;
 }
 
 .text.-top {
