@@ -31,6 +31,10 @@
 	height: min-content;
 }
 
+.section.-black {
+	background-color: black;
+}
+
 @media screen and (max-width: 767px ){
 	.section.-header {
     	height: 700px;
