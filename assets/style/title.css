@@ -135,6 +135,10 @@
 	.line {
 		width: 350px;
 	}
+
+	.text.-top {
+		margin-top: 0px;
+	}
 }
 
 @media screen and (max-width: 902px ){
@@ -146,6 +150,14 @@
 		width: auto;
 		margin-right: 70px;
 		margin-left: 70px;
+	}
+
+	.text.-top {
+		text-align: left;
+	}
+
+	.text.-gray {
+		text-align: left;
 	}
 
 	.subtitle.-margin.-orenge {
@@ -216,6 +228,10 @@
 
 	.subtitle.-margin.-orenge {
 		font-size: 16px;
+	}
+
+	.subtitle.-margin.-orenge.-none.-block {
+		font-size: 20px;
 	}
 
 	.text.-small.-margin.-right {

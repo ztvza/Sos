@@ -14,6 +14,16 @@
 	margin-right: 20px;
 }
 
+.avatar.-n2 {
+	background-image: url("../img/small/people2.jpg");
+	background-position-x: 40%;
+	background-position-y: 40%;  
+}
+
+.avatar.-n3 {
+	background-image: url("../img/small/people3.jpg");
+}
+
 .center {
 	justify-content: center;
 }

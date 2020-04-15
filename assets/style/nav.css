@@ -16,6 +16,11 @@
 	margin-right: 5px;
 }
 
+.nav_line.-big {
+	height: 168px;
+	margin-left: 7px;
+}
+
 .nav_icon {
 	margin-right: 10px;
 }
