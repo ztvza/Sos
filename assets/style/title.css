@@ -5,6 +5,10 @@
 	letter-spacing: 0.1em;
 }
 
+.title.-small {
+	font-size: 72px;
+}
+
 .title.-center {
 	text-align: center;
 	margin-bottom: 50px; 
@@ -16,6 +20,10 @@
 
 .title.-margin.-right {
 	text-align: left;
+}
+
+.title.-margin.-right.-fz {
+	font-size: 69px;
 }
 
 .line {
@@ -104,6 +112,18 @@
 	text-align: left ;
 }
 
+.text.-gray.-margin {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: start;
+}
+
+.text.-oreng {
+	color: var(--color-orenge);
+	font-size: 18px;
+	text-align: start;
+}
+
 .text.-small.-margin.-right {
 	text-align: left;	
 	margin-right: 120px;
@@ -116,6 +136,11 @@
 
 .info {
 	text-align: center;
+}
+
+.info.-top{
+	text-align: left;
+	margin-top: 100px;
 }
 
 @media screen and (max-width: 1400px ){
@@ -199,6 +224,12 @@
 	}
 }
 
+@media screen and (max-width: 600px){
+	.container.-flex.-margin.-none{
+		margin-right: 10px;
+	}
+}
+
 @media screen and (max-width: 574px ){
 	.subtitle {
 		margin-right: 90px;
@@ -210,10 +241,16 @@
 	}
 }
 
+@media screen and (max-width: 550px ){
+	.title.-margin.-right.-fz {
+		font-size: 58px;
+	}
+}
+
 @media screen and (max-width: 464px) {
 	.title.-small {
 		text-align: left;
-		font-size: 57px;
+		font-size: 53px;
 	}
 
 	.subtitle {

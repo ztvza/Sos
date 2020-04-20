@@ -35,6 +35,12 @@
 	background-color: black;
 }
 
+.section.-subscribe {
+	background-position-x: 40%;
+	padding-top: 0px;
+	background-image: url("../img/group.png");
+}
+
 @media screen and (max-width: 767px ){
 	.section.-header {
     	height: 700px;

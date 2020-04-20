@@ -6,6 +6,16 @@
 	width: 45%;
 }
 
+.img.-subscribe {
+	width: 50%;
+	height: 50%;
+}
+
+.img.-subscribe2 {
+	display: none;
+}
+
+
 .avatar {
 	background-image: url("../img/small/people1.jpg");
 	width: 65px;
@@ -31,6 +41,23 @@
 @media screen and (max-width: 902px ){
 	.img.-card {
 		width: 85%;
+	}
+}
+
+@media screen and (max-width: 767px ){
+	.img.-subscribe {
+		display: none;
+	}
+
+	.img.-subscribe2 {
+		display: block;
+		margin-right: 70px;
+	}
+}
+
+@media screen and (max-width: 600px ){
+	.img.-subscribe2 {
+		margin-right: 20px;
 	}
 }
 
