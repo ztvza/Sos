@@ -1,0 +1,15 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	background-color:  #080A0B;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+@media screen and (max-width: 1024px ){
+	.footer {
+		display: block;
+	}
+}

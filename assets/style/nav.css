@@ -4,6 +4,10 @@
 	font-size: 18px;
 }
 
+.header__nav.-margin {
+	margin-right: 40px;
+}
+
 .nav {
 	display: flex;
 	align-items: center;
@@ -23,6 +27,34 @@
 
 .nav_icon {
 	margin-right: 10px;
+}
+
+@media screen and (max-width: 1024px ){
+	.nav.-img {
+		display: none;
+	}
+
+	.nav.-gop {
+		display: flex;
+	}
+
+	.nav.-flex {
+		justify-content: space-between;
+	}
+
+	.nav.-block {
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.header__nav.-margin:last-child {
+		margin-right: 0px;
+	}
+	.header__nav.-margin {
+		margin-right: 20px;
+		font-size: 14px;
+	}
+
 }
 
 @media screen and (max-width: 574px){

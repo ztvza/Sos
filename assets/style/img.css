@@ -15,6 +15,14 @@
 	display: none;
 }
 
+.img.-footer {
+	width: 100%;
+	margin-right: 40px;
+}
+
+.img.-footer:last-child {
+	margin-right: 0px;
+}
 
 .avatar {
 	background-image: url("../img/small/people1.jpg");
@@ -36,6 +44,22 @@
 
 .center {
 	justify-content: center;
+}
+
+@media screen and (max-width: 1120px ){
+	.img.-footer {
+		margin-right: 20px;
+	}
+}
+
+@media screen and (max-width: 1024px ){
+	.img.-footer {
+		width: 5%;
+	}
+
+	.img.-footer.-smoll {
+		width: 2.5%;
+	}
 }
 
 @media screen and (max-width: 902px ){

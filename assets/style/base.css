@@ -54,8 +54,12 @@ body, h1, h2, h3, h4, h5, h6, li, ol, u, p {
 }
 
 .flex.-small.-jk {
+	justify-content: space-between;
 	align-items: center;
-	margin-top: 60px;
+}
+
+.flex.-small.-jk.-heigth {
+	margin-top: 0px;
 }
 
 .flex.-height {
@@ -87,9 +91,6 @@ body, h1, h2, h3, h4, h5, h6, li, ol, u, p {
 
 
 @media screen and (max-width: 1024px ){
-	.flex.-small.-jk {
-		display: block;
-	}
 
 	.position.-width {
 		width: 55%
