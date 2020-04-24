@@ -33,6 +33,13 @@
 	margin-bottom: 20px;
 }
 
+.line.-gray {
+	background-color: #979797;
+	height: 2px;
+	margin-top: 20px;
+	width: 100%;
+}
+
 .scroll {
 	margin-top: 119px;
 	text-align: center;
@@ -95,12 +102,17 @@
 }
 
 .text.-gray {
+	text-align: center;
 	color: #8f8f8f;
 	margin-top: 15px;
 }
 
 .text.-gray.-none {
 	margin-top: 0px;
+}
+
+.text.-gray.-center {
+	margin-bottom: 5px;
 }
 
 .text.-top {
@@ -183,6 +195,10 @@
 
 	.text.-gray {
 		text-align: left;
+	}
+
+	.text.-gray.-center {
+		text-align: center;
 	}
 
 	.subtitle.-margin.-orenge {
