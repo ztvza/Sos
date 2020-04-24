@@ -46,6 +46,11 @@
 	justify-content: center;
 }
 
+.logo.-block {		
+	display: none;
+	margin-bottom: 40px;
+}
+
 @media screen and (max-width: 1120px ){
 	.img.-footer {
 		margin-right: 20px;
@@ -79,6 +84,16 @@
 	}
 }
 
+@media screen and (max-width: 630px ){
+	.logo.-none {
+		display: none; 
+	}
+
+	.logo.-block {
+		display: block;
+	}
+}
+
 @media screen and (max-width: 600px ){
 	.img.-subscribe2 {
 		margin-right: 20px;
@@ -88,5 +103,13 @@
 @media screen and (max-width: 464px ){
 	.img.-card {
 		width: 100%;
+	}
+
+	.img.-footer {
+		width: 10%;
+	}
+
+	.img.-footer.-margin.-smoll {
+		width: 5%;
 	}
 }
