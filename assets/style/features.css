@@ -1,0 +1,34 @@
+.features {
+	padding-left: 40px;
+}
+
+.feature {
+	position: relative;
+}
+
+.feature.-active:before {
+	background-color: var(--color-white); 
+}
+
+.feature.-active:after {
+	display: block;
+	content: "";
+	width: 2px;
+	background-color: var(--color-white);
+	position: absolute;
+	left: -22px;
+    top: 20px;
+	bottom: -32px;
+}
+
+.feature:before {
+	display: block;
+	content: "";
+	position: absolute;
+	left: -30px;
+	top: 11px;
+	border: 2px solid var(--color-white);
+	border-radius: 50%;
+	width: 14px;
+	height: 14px;
+}

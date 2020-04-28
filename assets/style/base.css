@@ -35,39 +35,6 @@ body, h1, h2, h3, h4, h5, h6, li, ol, u, p {
 	width: 62%;
 }
 
-.flex {
-    height: 680px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.flex.-center {
-	height: 100%;
-	align-items: center;
-}
-
-.flex.-small {
-	display: flex;
-	height: auto;
-	align-items: end;
-}
-
-.flex.-small.-jk {
-	justify-content: space-between;
-	align-items: center;
-}
-
-.flex.-small.-jk.-heigth {
-	margin-top: 0px;
-}
-
-.flex.-height {
-	height: min-content;
-	justify-content: flex-start;
-	margin-top: 45px;
-}
-
 .content {
 	display: flex;
 	justify-content: flex-end;
@@ -77,16 +44,6 @@ body, h1, h2, h3, h4, h5, h6, li, ol, u, p {
 	align-items: center;
     height: 100%;
 
-}
-
-@media screen and (max-width: 1120px) {
-	.flex {
-		height: 550px;
-	}
-
-	.flex.-height {
-		display:block;
-	}
 }
 
 
@@ -100,13 +57,6 @@ body, h1, h2, h3, h4, h5, h6, li, ol, u, p {
 @media screen and (max-width:902px ){
 	.block {
 		width: 230px;
-	}
-}
-
-@media screen and (max-width: 767px ){
-	.flex.-center {
-		justify-content: flex-start;
-		margin-left: 23px;
 	}
 }
 
