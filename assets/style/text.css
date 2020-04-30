@@ -97,6 +97,12 @@
 	}
 }
 
+@media screen and (max-width: 550px ){
+	.text.-small.-margin.-right {
+		margin-right: 0px;
+	}
+}
+
 @media screen and (max-width: 464px) {
 	.text.-small.-margin.-right {
 		margin-right: 0px;

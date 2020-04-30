@@ -40,10 +40,3 @@
 		display:block;
 	}
 }
-
-@media screen and (max-width: 767px ){
-	.flex.-center {
-		justify-content: flex-start;
-		margin-left: 23px;
-	}
-}

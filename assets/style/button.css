@@ -26,6 +26,12 @@
 	}
 }
 
+@media screen and (max-width: 630px ){
+	.button.-big {
+		width: 100%;
+	}
+}
+
 @media screen and (max-width: 464px ){
 	.button.-big {
 		max-width: 100%;
